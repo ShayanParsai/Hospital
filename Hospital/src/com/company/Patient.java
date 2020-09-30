@@ -3,7 +3,7 @@ package com.company;
 public class Patient {
     private String name;
     private String sickness;
-    private boolean isSick = false;
+
 
     protected Patient (String name, String sickness) {
         this.name = name;
@@ -30,6 +30,7 @@ public class Patient {
     }
 
     protected boolean isSick() {
-        return isSick = sickness != null;
+        return sickness != null;
     }
 }
+
