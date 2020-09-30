@@ -30,7 +30,6 @@ public class Patient {
     }
 
     protected boolean isSick() {
-        isSick = sickness != null;
-        return isSick;
+        return isSick = sickness != null;
     }
 }
